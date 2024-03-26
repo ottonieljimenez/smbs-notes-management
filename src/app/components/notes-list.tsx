@@ -1,5 +1,5 @@
 import PostCard from "./post-card"
-import { type Note } from "../types/notes"
+import { UserEntity, type Note } from "../types/notes"
 
 export function NotesList({ notes }: { notes: Note[] | null }) {
     return (
@@ -16,7 +16,7 @@ export function NotesList({ notes }: { notes: Note[] | null }) {
                         user_name: userName,
                         name: userFullName,
                         avatar_url: avatarUrl,
-                    } = user
+                    } = user as UserEntity
 
                     return (
                         <PostCard
