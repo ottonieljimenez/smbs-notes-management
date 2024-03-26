@@ -19,6 +19,7 @@ specifiers:
   eslint-plugin-promise: ^6.0.0
   eslint-plugin-react: ^7.34.1
   next: 14.1.4
+  pnpm: ^8.15.5
   postcss: ^8
   react: ^18.2.0
   react-dom: ^18
@@ -32,6 +33,7 @@ dependencies:
   '@supabase/auth-helpers-nextjs': 0.9.0_@supabase+supabase-js@2.39.8
   '@supabase/supabase-js': 2.39.8
   next: 14.1.4_react-dom@18.2.0+react@18.2.0
+  pnpm: 8.15.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -2855,6 +2857,12 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
     dev: true
+
+  /pnpm/8.15.5:
+    resolution: {integrity: sha512-sFGjLH5pWDO4SSbTspuMylclS1ifBknYmcbp0O22cLkex+KkNFm65zdZu1zmGcMmbxFr+THOItHvF1mn5Fqpbw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
 
   /possible-typed-array-names/1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
