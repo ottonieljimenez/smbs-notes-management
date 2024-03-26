@@ -1,7 +1,7 @@
 'use client'
 
-import { useEffect, useRef } from "react"
-import { useFormStatus } from "react-dom"
+import { useEffect, useRef } from 'react'
+import { useFormStatus } from 'react-dom'
 
 export function ComposeNoteTextArea() {
     const { pending } = useFormStatus()

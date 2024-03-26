@@ -1,9 +1,8 @@
-import { cookies } from "next/headers"
-import { revalidatePath } from "next/cache"
+import { cookies } from 'next/headers'
+import { revalidatePath } from 'next/cache'
 
-import { Avatar } from "@nextui-org/react"
-import { createServerActionClient } from "@supabase/auth-helpers-nextjs"
-import { ComposeNoteTextArea } from "./compose-note-textarea"
+import { createServerActionClient } from '@supabase/auth-helpers-nextjs'
+import { ComposeNoteTextArea } from './compose-note-textarea'
 
 export function ComposeNote ({
     userAvatarUrl

@@ -18,7 +18,9 @@ export default async function Home() {
 
   const { data: notes } = await supabase
     .from('notes')
-    .select('*, user:users(name, avatar_url, user_name)')
+    .select('*, user:users(*)')
+
+  console.log(notes)
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
