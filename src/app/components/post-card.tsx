@@ -16,8 +16,6 @@ export default function PostCard({
     avatarUrl: string
     content: string
 }) {
-    const [isFollowed, setIsFollowed] = useState(false);
-
     return (
         <Card className="shadow-none bg-transparent hover:bg-slate-800 transition border-b rounder-none cursor-pointer border-white/20">
             <CardHeader className="justify-between">
