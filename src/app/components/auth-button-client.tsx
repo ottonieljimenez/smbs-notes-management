@@ -17,6 +17,7 @@ export function AuthButton({ session }: { session: Session | null }) {
         url = url.includes('http') ? url : `https://${url}`
         // Make sure to include a trailing `/`.
         url = url.charAt(url.length - 1) === '/' ? url : `${url}/`
+        console.log(url) // console.log for debugging purposes
         return url
     }
 
